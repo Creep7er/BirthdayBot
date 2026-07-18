@@ -1,0 +1,9 @@
+.git
+.gitignore
+.env
+__pycache__
+*.py[cod]
+*.sqlite3
+.venv
+data/*
+!data/.gitkeep

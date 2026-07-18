@@ -1,0 +1,10 @@
+services:
+  birthday-bot:
+    build: .
+    env_file: .env
+    volumes:
+      - birthday-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  birthday-data:
